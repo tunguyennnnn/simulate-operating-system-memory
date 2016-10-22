@@ -1,0 +1,15 @@
+Clock: 1.0,Process 2: Started 
+Clock: 1.0150001049, Process 2, Store Variable 1, Value: 5
+Clock: 1.9509999752, Process 2, Store Variable 2, Value: 3
+Clock: 2.0,Process 1: Started 
+Clock: 2.71600008011, Process 1, Store Variable 3, Value: 7
+Clock: 2.96600008011 Memory Manager, Swap Variable 3 with 1
+Clock: 3.01300001144, Process 2, Look up Variable 3, Value: 7
+Clock: 3.01300001144, Process 1, Look up Variable 2, Value: 3
+Clock: 3.73099994659, Process 1, Release Variable 1
+Clock: 4.0,Process 3: Started 
+Clock: 4.49500012398, Process 3, Store Variable 1, Value: 8
+Clock: 4.97900009155 Memory Manager, Swap Variable 1 with 3
+Clock: 5.0, Process 1: Finished
+Clock: 5.02500009537, Process 1, Look up Variable 1, Value: 8
+Clock: 7.0, Process 3: Finished
